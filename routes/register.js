@@ -3,6 +3,6 @@ const app = express();
 const router = express.Router();
 router
     .route("/")
-    .get((req, res) => res.sendFile(process.cwd()+"/about.ejs"))
+    .get((req, res) => res.sendFile(process.cwd()+"/register.ejs"))
     .post((req, res) => res.send("POST HOME"));
 module.exports = router;
