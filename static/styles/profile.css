@@ -52,23 +52,23 @@ button:focus {
     justify-content: center;
 }
 .post {
-    background-color: aqua;
-    border-radius: 5ch;
+    background-color: #E9D5DA;
+    border-radius: 2ch;
     display: inline-block;
     max-width: 330px;
     min-height: 200px;
     margin: 20px;
 }
 .limited {
-    max-height: 200px;
+    max-height: 180px;
     overflow: hidden;
     position: relative;
 }
 .limited .bottom {
     position: absolute;
-    border-radius: 5ch;
+    border-radius: 2ch;
     bottom: 0;
-    background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1) 50%);
+    background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
     width: 100%;
     height: 60px;
     opacity: 1;
